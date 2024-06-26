@@ -1,0 +1,52 @@
+.topnav {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+}
+.topnav span a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+::-moz-selection {
+  color: white;
+  background: #64d8ae;
+}
+::selection {
+  color: white;
+  background: #64d8ae;
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1em;
+  line-height: 1.75;
+  margin: auto;
+  max-width: 70ch;
+  padding: 0em 1em;
+}
+img {
+  width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0em 0 0em;
+}
+p, ul, ol {
+  color: #1d1d1d;
+  margin-bottom: 2em;
+}
+.logo {
+  max-height: 100px;
+  margin: 0 auto;
+  display: block;
+}
+.underline {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  list-style-type: none;
+}
+#content {
+  padding-top: 1em;
+}
