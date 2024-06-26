@@ -5,8 +5,10 @@
   <title>2048</title>
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8180450850257146"
-     crossorigin="anonymous"></script>
+      crossorigin="anonymous"></script>
 
+   <script src="/js/prebid-ads.js"></script>
+	
   <link href="style/main.css" rel="stylesheet" type="text/css">
   <link rel="shortcut icon" href="2048.ico">
   <link rel="apple-touch-icon" href="meta/apple-touch-icon.png">
@@ -19,7 +21,15 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
 </head>
-<body>
+<body>	
+
+    <script>
+    if( window.canRunAds === undefined ){
+        // adblocker detected, show fallback
+        showFallbackImage();
+    }
+    </script>
+	
   <div class="container">
     <div class="heading">
       <h1 class="title">2048</h1>
